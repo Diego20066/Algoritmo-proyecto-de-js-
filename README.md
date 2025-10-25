@@ -58,13 +58,20 @@ Acción	Método
 Enviar documento	agregar_documento("archivo")
 Imprimir	imprimir()
 Ver documentos en espera	mostrar_cola()
+
 ## Ejemplo de Ejecución (Incluido en el Código)
 nav = NavegadorWeb()
+
 nav.navegar("Google")
+
 nav.navegar("YouTube")
+
 nav.ir_atras()
+
 nav.ir_adelante()
 
 imp = ImpresoraCompartida()
+
 imp.agregar_documento("Trabajo.pdf")
+
 imp.imprimir()
